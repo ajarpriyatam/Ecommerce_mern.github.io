@@ -1,0 +1,175 @@
+.ProductDetails {
+  background-color: rgb(255, 255, 255);
+  width: 100vw;
+  max-width: 100%;
+  padding: 6vmax;
+  box-sizing: border-box;
+  display: flex;
+  margin-top: 2vmax;
+}
+.ProductDetails .ProductDetail1{
+  width: 45vmax;
+  height: 100%;
+}
+.ProductDetails .ProductDetail1 img{
+  width: 65%;
+  margin-left: 15%;
+}
+.ProductDetails .ProductDetails1 {
+  padding: 2vmax 4vmax;
+  width: 40%;
+}
+.ProductDetails  div:last-child {
+  align-items: flex-start;
+}
+
+.detailsBlock-1  h2 {
+  color: rgb(54, 54, 54);
+  font: 600 1.6vmax "Roboto";
+}
+
+.detailsBlock-1  p {
+  color: rgba(54, 54, 54, 0.582);
+  font: 200 0.6vmax cursive;
+}
+
+.detailsBlock-2 {
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 0.7vmax;
+  align-items: center;
+  border-top: 1px solid rgba(0, 0, 0, 0.205);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.205);
+  width: 100%;
+  padding: 1vmax 0;
+}
+.detailsBlock-2-span {
+  font: 200 0.8vmax cursive;
+  color: rgba(0, 0, 0, 0.699);
+}
+
+.detailsBlock-3 {
+  width: 100%;
+
+}
+
+.detailsBlock-3  h1 {
+  color: rgba(17, 17, 17, 0.795);
+  font: 400 1.8vmax "Franklin Gothic Medium";
+  margin: 1vmax 0;
+}
+.detailsBlock-3-1 {
+  display: flex;
+  align-items: center;
+}
+
+.detailsBlock-3-1-1  button {
+  border: none;
+  background-color: rgba(0, 0, 0, 0.616);
+  padding: 0.5vmax;
+  cursor: pointer;
+  color: white;
+  transition: all 0.5s;
+}
+.detailsBlock-3-1-1  button:hover {
+  background-color: rgba(0, 0, 0, 0.767);
+}
+
+.detailsBlock-3-1-1  input {
+  border: none;
+  padding: 0 0 0 0.8vmax;
+  width: 3.0vmax;
+  text-align: center;
+  outline: none;
+  font: 400 0.8vmax "Roboto";
+  color: rgba(0, 0, 0, 0.74);
+}
+
+.detailsBlock-3  p {
+  border-top: 1px solid rgba(0, 0, 0, 0.205);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.205);
+  padding: 1vmax 0;
+  color: rgba(0, 0, 0, 0.651);
+  font: 400 1vmax "Roboto";
+  margin: 1vmax 0;
+}
+.detailsBlock-3  p .greenColor{
+  color: green;
+}
+.detailsBlock-3  p .redColor{
+  color: red;
+}
+.detailsBlock-4 {
+  color: rgba(0, 0, 0, 0.897);
+  width: 100%;
+  font: 500 1.2vmax sans-serif;
+  padding:  1vmax 0 1vmax  0;
+
+}
+
+.detailsBlock-4  .para {
+  color: rgba(0, 0, 0, 0.534);
+  font: 300 0.9vmax sans-serif;
+  text-align: left;
+  color: black;
+
+}
+.detailsBlock-5 {
+  color: rgba(0, 0, 0, 0.897);
+  width: 100%;
+  font: 500 1.2vmax sans-serif;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.205);
+  padding:  0 0 1vmax  0;
+}
+.detailsBlock-5 .buyBtn1:hover{
+  text-decoration: underline;
+  cursor: pointer;
+  background-color: rgb(85, 146, 170);
+
+}
+.detailsBlock-5 .buyBtn1{
+  background-color: skyblue;
+  color: white;
+  width: 8vmax;
+  height: 2vmax;
+  margin-top: 2vmax;
+  border: none;
+  outline: none;
+}
+.detailsBlock-51{
+  display: flex;
+} 
+.detailsBlock-5-1,.detailsBlock-5-2  label{
+  font-size: 1vmax;
+}
+.detailsBlock-5-2{
+  margin-left: 3vmax;
+}
+.detailsBlock-5-1  select{
+  border:0.1px solid gray;
+  margin-top: 1vmax;
+  width: 4.5vmax;
+  outline: none;
+  height: 1.8vmax;
+}
+.detailsBlock-5-2  select{
+  border:0.1px solid gray;
+  margin-top: 1vmax;
+  width: 4.5vmax;
+  outline: none;
+  height: 1.8vmax;
+}
+.detailsBlock-5-1  select  .option{
+  border-bottom: 1px solid gray;
+}
+@media only screen and (max-width: 480px) {
+  .ProductDetails {
+    flex-direction: column;
+  }
+  .ProductDetail1{
+    width: 100%;
+  }
+  .ProductDetails1 {
+    width: 100%;
+  }
+}

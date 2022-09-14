@@ -1,0 +1,59 @@
+.container6{
+  position: relative;
+  top: 10vmax;
+  display: flex;
+  flex-direction: column;
+  padding-left: 8vmax;
+  padding-right: 8vmax;
+  padding-bottom: 5vmax;
+  margin-bottom: 5vmax;
+}
+.para1,.para2,.para3{
+  text-align: left;
+  position: relative;
+}
+.para1{
+  font-size: 40px;
+  width: 50vmax;
+  color: skyblue;
+}
+.para2{
+  margin-top: 3vmax;
+  font-size: 25px;
+  border-bottom: 2px solid skyblue;
+  width: 10vmax;
+}
+.para3{
+  margin-top: 1vmax;
+}
+.container2{
+  display: flex;
+}
+.container4{
+  width: 20%;
+  padding-top: 1.5vmax;
+}
+.container5{
+  margin-left: 2%;
+  margin-right: 8%;
+  width: 70%;
+  padding-top: 1.5vmax;
+}
+.img{
+  width: 5vmax;
+  height: 5vmax;
+}
+.para5{
+  float: right;
+}
+.para6{
+  float: left;
+  color: black;
+}
+.para6:hover{
+  color: skyblue;
+}
+.para7{
+  float: right;
+  color: orange;
+}
